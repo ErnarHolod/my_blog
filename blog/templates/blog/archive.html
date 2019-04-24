@@ -10,16 +10,18 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'css/main.css' %}">
-    <link rel="stylesheet" href="{% static 'css/About_us.css' %}">
+    <link rel="stylesheet" href="{% static 'css/price.css' %}">
     <link rel="stylesheet" href="{% static 'css/style.css'%}">
+    <link rel="stylesheet" href="{% static 'css/services.css'%}">
     <link rel="icon" href="{% static 'images/i.png'%}">
     <link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:700" rel="stylesheet">
-    <title>О нас</title>
+    <title>Архив курсов</title>
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="main">
+    <nav class="navbar navbar-expand-lg bg-dark">
   <a class="navbar-brand" href="/">
-    <img src="{%static 'images/shrine-s320190315-153-ngrv4k.png'%}" width="48" height="48" alt=".">
+    <img src="{% static 'images/shrine-s320190315-153-ngrv4k.png'%}" width="48" height="48" alt=".">
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -51,21 +53,13 @@
     </form>
   </div>
 </nav>
-<div class="main">
-<div class="odin">
-<div class="o">
-  <p>Наша школа - самая лучшая в Казахстане.</p>
-</div>
-<div class="d">
-  <p>У нас лучшие преподаватели</p>
-</div>
-<div class="t">
-  <p>Школа программирования GeekMethod - это место, где дети и взрослые могут в короткие сроки получить качественное IT-образование. Видение школы - это Казахстан на лидирующих позициях мирового технологического рынка. Миссия школы - способствовать воплощению данного видения путём подготовки конкурентоспособных IT-специалистов с раннего возраста.</p>
-</div>
-<!-- <div class="c">
-  <p>SOMETHING ABOUT US</p>
-</div> -->
-</div>
+<div class="container">
+  <div class="col-sm"><p>Курс <strong>#3489</strong><h1>Курс Swift</h1>(удален за ненадобностью)</p></div>
+  <div class="col-sm"><p>Курс <strong>#3670</strong><h1>Курс Python</h1>(удален за ненадобностью)</p></div>
+  <div class="col-sm"><p>Курс <strong>#2324</strong><h1>Курс Pascal(Turbo)</h1>(удален за ненадобностью)</p></div>
+  <div class="col-sm"><p>Курс <strong>#0673</strong><h1>Курс Rust</h1>(удален за ненадобностью)</p></div>
+  <div class="col-sm"><p>Курс <strong>#0948</strong><h1>Курс Julia</h1>(удален за ненадобностью)</p></div>
+  <div class="col-sm"><p>Курс <strong>#1878</strong><h1>Курс Goland</h1>(удален за ненадобностью)</p></div>
 </div>
 <footer>
   <ul>
@@ -97,7 +91,6 @@
     </li>
   </ul>
 </footer>
-</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

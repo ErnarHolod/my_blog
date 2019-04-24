@@ -6,6 +6,8 @@ def post_list(request):
     posts =    Post.objects.all()
     return render(request, 'blog/post_list.html', {'posts': posts})
 
+def index(request):
+    return render(request, 'blog/index.html')
 def reg(request):
     return render(request, 'blog/reg.html')
 def login(request):
