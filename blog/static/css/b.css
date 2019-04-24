@@ -1,0 +1,47 @@
+*{
+	font-family: Arial black;
+}
+#div1{
+	display:none;
+	width: 150px;
+	height: 150px;
+	background-color: red;
+}
+#div2{
+	display:none;
+	width: 150px;
+	height: 150px;
+	background-color: green;
+}
+#div3{
+	display:none;
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+}
+.panel, .flip{
+	background-color: pink;
+	border: solid 1px red;
+}
+.panel{
+	display: none;
+	height: 100px;
+}	
+.animate{
+	width: 150px;
+	height: 150px;
+	background-color: #8b807a;
+	position: absolute;
+}
+#animate{
+	margin-top: 500px;
+
+}
+.important{
+	font-weight: bold;
+	font-size: 30px;
+	color: brown;
+}
+.blue{
+	color: blue;
+}

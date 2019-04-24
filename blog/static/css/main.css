@@ -1,0 +1,44 @@
+.navbar navbar-expand-lg bg-dark{
+	color: whtie;
+}
+.col-sm{
+	background-color: white;
+}
+.carousel-control-left{
+	color:blue;
+}
+.carousel-control-right{
+	color:blue;
+}
+.container{
+	margin-top: 40px;
+}
+.block{
+	font-family: Arial black;
+	width: auto;
+	height: auto;
+}
+button{
+	color: white;
+	margin: auto;
+	background-color: #343a40;
+	border-radius: 10px;
+	width: 115px;
+	height: 35px;
+}
+button:active{
+	color: black;
+	background-color: #cbc5bf;
+}
+.card{
+	height:570px;
+}
+p{
+	font-family: Arial black;
+	width: auto;
+	height: auto;
+}
+.breadcrumb{
+  background-color: #343a40;
+  color: #ffffff;
+}

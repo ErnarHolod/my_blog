@@ -1,0 +1,39 @@
+.odin div{
+	text-align: center;
+	color: black;
+	background-color: white	;
+	border-radius: 10px;
+	/*width: 90vw;*/
+	display: inline-block;
+}
+/*.a_u{
+	margin-left: 25vw;
+}*/
+.odin div{
+	font-size: 20px;
+	height: 80px;
+	width: 600px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black #0c0c0c #0c0c0c black ;
+	margin-top: 10px;
+	border-radius: 20px;
+	box-shadow: 0 0 50px rgba(0,0,0,0.5);
+	display: block;
+}
+.main{
+	background-color: white;
+	height: 80vh;
+	border-bottom-style:solid;
+	border-width: 2px;
+	border-color: #191919;
+}
+.odin{
+	background-color: white;
+	margin-left: center;
+	padding-top: 15px;
+	margin-left: 25vw;
+}
+.main div{
+	height: auto;
+}
